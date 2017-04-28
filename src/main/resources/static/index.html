@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Portfolio Management</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="portlet.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+</head>
+<body>
+    <h1 class="text-center bg-primary">Portfolio Management</h1>
+  
+    <div class="container" ng-app="portfolioApp">
+        <div class="col-md-12" ng-repeat="portfolio in portfolios">
+           <portfolio></portfolio>
+        </div>
+    </div>
+</body>
+<script src="app.js"></script>
+</html>
